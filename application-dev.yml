@@ -1,1 +1,14 @@
+server:
+  port: 8085  # Port for the API Gateway
 
+spring:
+  application:
+    name: CONFIG-DEV  # Name of the API Gateway service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/  # Eureka server URL
+    register-with-eureka: true  # Register the API Gateway with Eureka
+    fetch-registry: true  # Fetch the registry from Eureka
+  instance:
+    prefer-ip-address: true  # Use IP address instead of hostname
