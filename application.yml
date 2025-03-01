@@ -1,3 +1,9 @@
+server:
+  port: 8085  # Port for the API Gateway
+
+spring:
+  application:
+    name: CONFIG-DEFAULT  # Name of the API Gateway service
 eureka:
   client:
     service-url:
