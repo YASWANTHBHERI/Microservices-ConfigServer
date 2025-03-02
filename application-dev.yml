@@ -1,6 +1,3 @@
-server:
-  port: 8085  # Port for the API Gateway
-
 spring:
   application:
     name: CONFIG-DEV  # Name of the API Gateway service
