@@ -1,6 +1,4 @@
-spring:
-  application:
-    name: CONFIG-PROD  # Name of the API Gateway service
+
 eureka:
   client:
     service-url:
